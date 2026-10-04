@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Production builds
+dist/
+backend/dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Test coverage & logs
+coverage/
+backend/coverage/
+*.log
+backend/*.log
+frontend/*.log
+
+# Environment variables & secrets (NEVER commit secrets)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+*.env.local
+
+# Local storage and file uploads
+uploads/
+backend/uploads/
+scratch/
+chroma_store/
+chroma_data/
+backend/chroma_data/
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+.kilo/
